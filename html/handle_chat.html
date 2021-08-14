@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset = "utf-8" />
+	<title>西田研究議会モスクワ支部 会議室</title>
+    <link rel="icon" type="image/x-icon" href="/img/nishidicon.jpg">
+    <style>
+    h1 {
+      font-family: serif;
+    }
+    </style>
+</head>
+
+<body bgcolor="#FFC7AF" text="#000000">
+	<h1>西田研究議会モスクワ支部 (Ver: 0.0.1 cgi)<br>
+		Исследовательский Совет Нисиды Московский Отделение(Вер: 0.0.1 cgi)</h1>
+	<a href="/"><img src="/img/top.png" alt="トップ"></a>
+	<br />
+	<br />
+	<p>ルーム作成</p>
+	<input type="text" id="new_room" autocomplete="off">
+	<button type="button" id="create_room" value="作成" disabled>作成</button>
+	<br />
+	<p>ルーム削除</p>
+	<input type="text" id="deleting_room" autocomplete="off">
+	<button type="button" id="delete_room" value="削除" disabled>削除</button>
+	<br />
+	<p>ルーム検索</p>
+	<input type="text" id="searching_room" autocomplete="off">
+	<button type="button" id="search_room" value="検索" disabled>検索</button>
+	<br />
+	<h1>-ルーム一覧-</h1>
+	<p id="error"></p>
+	<div id = "content"></div>
+	<script type="text/javascript" src="handle_chat.js"></script>
+</body>
+
+</html>

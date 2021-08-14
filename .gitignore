@@ -1,2 +1,5 @@
 /conf
 /Dockerfile
+/cgi-bin/chat/logs/*
+/html/chats/*
+!/html/chats/chat.js

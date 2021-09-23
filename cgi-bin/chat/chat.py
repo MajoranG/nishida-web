@@ -24,15 +24,15 @@ def add_message(n,m):
             n = int(z[2:])
             full_z = "絶対" * n
             m = m.replace(z, full_z)
-        m = m.replace('!Z', '絶対絶対100%どころか120%1000%絶対')
-        list1["ip"].append(ip)
-        list1["id"].append(id)
-        nowdate = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
-        strnowdate = nowdate.strftime('%Y/%m/%d %H:%M:%S')
-        list1["time"].append(strnowdate)
-        list1["message"].append(m)
-        f.write(str(ut)+","+str(list1["name"][0])+","+str(list1["message"][0])+","+str(list1["ip"][0])+","+str(list1["time"][0])+","+list1["id"][0]+"\n")
-        f.close()
+    m = m.replace('!Z', '絶対絶対100%どころか120%1000%絶対')
+    list1["ip"].append(ip)
+    list1["id"].append(id)
+    nowdate = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
+    strnowdate = nowdate.strftime('%Y/%m/%d %H:%M:%S')
+    list1["time"].append(strnowdate)
+    list1["message"].append(m)
+    f.write(str(ut)+","+str(list1["name"][0])+","+str(list1["message"][0])+","+str(list1["ip"][0])+","+str(list1["time"][0])+","+list1["id"][0]+"\n")
+    f.close()
 
 def message_func(lists):
     fb = open(dir_name + file_name, mode = "r")
@@ -84,7 +84,7 @@ if __name__ == "__main__":
             print(json.dumps(lists))
             exit(0)
 
-        dir_name = 'logs/'
+        dir_name = './logs/'
         file_name = o
         #print("名前:"+ n + "\nメッセージ:"+ m + "\n", file=sys.stderr)
         if n != "!reload" and m != "!reload" and n != "!delete" and m != "!delete":
@@ -97,3 +97,4 @@ if __name__ == "__main__":
         if os.path.exists(dir_name + file_name):
             message_func(lists)
             print(json.dumps(lists))
+

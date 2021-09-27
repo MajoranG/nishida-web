@@ -1,6 +1,6 @@
-/conf
-/Dockerfile
-/cgi-bin/chat/logs/*
-/cgi-bin/count.txt
-/html/chats/*
-!/html/chats/chat.js
+/nishida-web/conf
+/nishida-web/Dockerfile
+/nishida-web/cgi-bin/chat/logs/*
+/nishida-web/cgi-bin/count.txt
+/nishida-web/html/chats/*
+!/nishida-web/html/chats/chat.js

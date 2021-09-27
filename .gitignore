@@ -1,5 +1,4 @@
 /nishida-web/conf
-/nishida-web/Dockerfile
 /nishida-web/cgi-bin/chat/logs/*
 /nishida-web/cgi-bin/count.txt
 /nishida-web/html/chats/*

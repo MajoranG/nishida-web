@@ -2,4 +2,5 @@
 /nishida-web/cgi-bin/chat/logs/*
 /nishida-web/cgi-bin/count.txt
 /nishida-web/html/chats/*
+/nishida-web/html/img/speedtest/*
 !/nishida-web/html/chats/chat.js

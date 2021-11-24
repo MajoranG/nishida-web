@@ -40,12 +40,16 @@ def newton3(a, b, c, d, x0):
     if a != 0:
         x1 = 0
         e = 1e-22
+        c = 0
         C = int(math.pow(10, 10))
         for i in range(C):
             x1 = (2*a*x0**3+b*x0**2-d)/(3*a*x0**2+2*b*x0+c)
             if abs(x0 - x1) <= e:
                 break
+            if c > 10000:
+                exit()
             x0 = x1
+            c = c + 1
         return x1
 
 def solve3(a, b, c, d):

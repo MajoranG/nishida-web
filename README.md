@@ -1,5 +1,5 @@
 # nishida-web
-is the official website of Nishida Research Institute.
+is an official website of Nishida Research Institute.
 
 ## License
 [WTFPL](LICENSE)

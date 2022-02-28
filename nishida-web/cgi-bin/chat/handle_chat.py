@@ -38,13 +38,13 @@ if __name__ == "__main__":
     <html lang="ja">
     <head>
         <meta charset = "utf-8" />
-        <title>西田研究議会モスクワ支部 会議室</title>
+        <title>西田研究議会ミンスク支部 会議室</title>
         <link rel="icon" type="image/x-icon" href="/img/nishidicon.jpg">
     </head>
 
     <body bgcolor="#FFC7AF" text="#000000">
-        <h1>西田研究議会モスクワ支部 (Ver: 0.0.1 cgi)<br>
-            Исследовательский Совет Нисиды Московский Отделение(Вер: 0.0.1 cgi)</h1>
+        <h1>西田研究議会ミンスク支部 (Ver: 0.0.1 cgi)<br>
+            Даследчы Савет Нішыды Мінскае Аддзяленне(Вер: 1.0.1 cgi)</h1>
         <a href="/"><img src="/img/top.png" alt="トップ"></a>
         <br />
         <a href="/handle_chat.html">ルーム一覧</a>

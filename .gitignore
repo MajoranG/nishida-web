@@ -1,6 +1,6 @@
-/nishida-web/conf
-/nishida-web/cgi-bin/chat/logs/*
-/nishida-web/cgi-bin/count.txt
-/nishida-web/html/chats/*
-/nishida-web/html/img/speedtest/*
-!/nishida-web/html/chats/chat.js
+/conf
+/cgi-bin/chat/logs/*
+/cgi-bin/count.txt
+/html/chats/*
+/html/img/speedtest/*
+!/html/chats/chat.js

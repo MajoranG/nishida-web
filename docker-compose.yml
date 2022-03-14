@@ -2,12 +2,12 @@ version: '3'
 services:
   nishida-web:
     container_name: nishida-web
-    build: ./nishida-web/.
+    build: .
     restart: always
     volumes:
-      - ./nishida-web/conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
-      - ./nishida-web/html:/usr/local/apache2/htdocs
-      - ./nishida-web/cgi-bin:/usr/local/apache2/cgi-bin
+      - ./conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./html:/usr/local/apache2/htdocs
+      - ./cgi-bin:/usr/local/apache2/cgi-bin
     environment:
       VIRTUAL_HOST: nishida.decimoll.0j0.jp
       LETSENCRYPT_HOST: nishida.decimoll.0j0.jp

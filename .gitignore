@@ -1,4 +1,3 @@
-/conf
 /cgi-bin/chat/logs/*
 /cgi-bin/count.txt
 /html/chats/*
